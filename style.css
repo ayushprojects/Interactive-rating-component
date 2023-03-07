@@ -1,0 +1,36 @@
+*{
+    font-family: 'Overpass', sans-serif;
+}                                                                       
+body{
+    background-color: hsl(216, 12%, 8%);
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    padding: auto;
+    color: white;
+
+}
+
+.card{
+  
+   
+    top: 50%;
+    transform: translateY(50%);
+    width: 18rem;
+    height: 18rem;
+    background-color: hsl(213, 19%, 18%);
+    margin: auto;
+    
+    padding:1.5rem;
+    text-align: start;
+    border-radius: 20px;
+    
+   
+}
+#star-icon{
+ 
+   
+    background-color: hsl(216, 5%, 21%);
+    border-radius: 50%;
+    padding: 10px;
+}
