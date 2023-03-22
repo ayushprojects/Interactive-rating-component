@@ -1,36 +1,61 @@
 *{
     font-family: 'Overpass', sans-serif;
+    --White: hsl(0, 0%, 100%)
+- Light Grey: hsl(217, 12%, 63%)
+- Medium Grey: hsl(216, 12%, 54%)
+- Dark Blue: hsl(213, 19%, 18%)
+- Very Dark Blue: hsl(216, 12%, 8%)
+
 }                                                                       
 body{
-    background-color: hsl(216, 12%, 8%);
-    margin: auto;
-    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    padding: auto;
-    color: white;
-
+    align-items: center;
+    background-color: hsl(216, 12%, 8%);
 }
 
-.card{
-  
-   
-    top: 50%;
-    transform: translateY(50%);
-    width: 18rem;
-    height: 18rem;
-    background-color: hsl(213, 19%, 18%);
-    margin: auto;
-    
-    padding:1.5rem;
-    text-align: start;
-    border-radius: 20px;
-    
-   
+.hide{
+    display: none;
 }
-#star-icon{
- 
-   
-    background-color: hsl(216, 5%, 21%);
+
+.main, .thankyou{
+     width:360px;
+     background:  hsl(213, 19%, 18%);
+     padding: 2rem;
+     border-radius: 10px;
+     
+}
+.main img{
+    background-color: hsl(213, 20%, 23%);
+    padding: 1rem;
     border-radius: 50%;
-    padding: 10px;
 }
+
+.main h1{
+    color: #fff;
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin-top: 25px;
+}
+
+.main p{
+    color: hsl(216, 12%, 54%);
+    line-height: 1.5;
+    width: 23rem;
+}
+.main ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    font-family: inherit;
+    font-size: 1rem;
+    padding-left: 0;
+}
+li button.rating-btn {
+    border: none;
+  }
